@@ -9,4 +9,10 @@ class Blink extends components {
       this.setState({ showText: !this.state.showText });
     }, 1000)
   }
+
+  render() {
+    return(
+      
+    )
+  }
 }

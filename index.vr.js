@@ -7,6 +7,7 @@ import {
   Text,
   View,
 } from 'react-vr';
+import Blink from './src/components/Blink.jsx'
 
 export default class WelcomeToVR extends React.Component {
   render() {
@@ -27,6 +28,9 @@ export default class WelcomeToVR extends React.Component {
           }}>
           Sup Bruh.
         </Text>
+        <Blink>
+          
+        </Blink>
       </View>
     );
   }
